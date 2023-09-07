@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+header {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 1%;
+    text-align: center;
+}
+
+li, a, button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #050505;
+    text-decoration: none;
+}
+.logo {
+    cursor: pointer;
+}
+.nav{
+    text-align: center;
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav li a{
+    transition: all 0.5s ease 0s;
+}
+.nav li a:hover{
+    color: #0088d4;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgba(0, 130, 170, 1);
+    border: none;
+    border-radius: 75px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(8, 31, 59);
+}
